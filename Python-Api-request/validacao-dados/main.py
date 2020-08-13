@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from Acesso_Cep import BuscaEndereco
 import requests
 
@@ -27,3 +28,11 @@ objeto_cep= BuscaEndereco(cep)
 
 bairroCidadeUf= objeto_cep.acessa_via_cep()
 print(bairroCidadeUf)
+=======
+from TelefonesBr import TelefoneBr
+import re
+
+telefone = "551236325841"
+telefoneObj = TelefoneBr(telefone)
+
+>>>>>>> ced18dcff728aef366fb497241942a75ac349581
